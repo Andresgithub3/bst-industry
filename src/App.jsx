@@ -5,7 +5,7 @@ import TopNav from "./components/TopNav/TopNav";
 
 function App() {
   return (
-    <>
+    <div className="">
     <TopNav />
       <main>
       {/* This is where the child routes will be rendered */}
@@ -13,7 +13,7 @@ function App() {
       </main>
 
       <BottomNav />
-    </>
+    </div>
   );
 }
 
