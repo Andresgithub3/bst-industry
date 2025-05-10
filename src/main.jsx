@@ -10,7 +10,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       // add the child routes here, this is the sample pattern for a child route
-      // { path: '/', element: <ComponentPageSample /> },
+      // { path: '/', element: <ComponentPageSample /> }, this is the sample pattern for a child route
     ]
   }
 ])
