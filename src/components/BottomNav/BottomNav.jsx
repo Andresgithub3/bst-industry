@@ -24,7 +24,7 @@ export default function BottomNav() {
       >
         <BottomNavigationAction label="Shop" icon={<CheckroomIcon />} />
         <BottomNavigationAction label="Community" icon={<PeopleOutlineIcon />} />
-        <BottomNavigationAction label="My Store" icon={<StorefrontIcon />} />
+        <BottomNavigationAction sx={{ textWrap: "nowrap" }} label="My Store" icon={<StorefrontIcon />} />
         <BottomNavigationAction label="Saved" icon={<FavoriteBorderIcon />} />
         <BottomNavigationAction label="Account" icon={<PermIdentityIcon />} />
       </BottomNavigation>

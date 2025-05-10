@@ -5,10 +5,16 @@ import Tag from "../Tag/Tag";
 const tags = ["Tag1", "Tag2", "Tag3", "Tag4", "Tag5"];
 
 const EventsCard = () => {
+
   return (
     <div className="border border-zinc-300">
       {/* Image */}
-      <div className="border-2 border-gray-200 rounded-lg shadow-md">
+      <div className="relative border-2 border-gray-200 rounded-lg shadow-md">
+
+        {/* Sign Up badge, will update this later on so it will render conditionally if user signed up on the event */}
+        <div className="absolute top-0 left-0 bg-red-600 text-white text-xs font-bold px-4 py-1">
+          Signed Up
+        </div>
         <img
           src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Event"
