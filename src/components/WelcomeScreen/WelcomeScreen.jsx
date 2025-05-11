@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/WelcomeScreen.css"; 
+import "../../styles/WelcomeScreen.css";
 import BottomNav from "../BottomNav/BottomNav";
 import DefaultButton from "../Button/Button";
 
@@ -20,7 +20,7 @@ const WelcomeScreen = () => {
             <br />
             fans near your closest lululemon store.
           </p>
-          <DefaultButton text={"Set up profile"} />
+          <button className="profile-button">Set up profile</button>
         </div>
       </div>
     </div>

@@ -28,8 +28,10 @@
   font-size: 40px;
   font-weight: bold;
   color: #000;
-  margin-bottom: 20px;
   line-height: 48px;
+  width: 100%;
+  text-align: center;
+  padding: 89px 0 45px 0;
 }
 
 .registered-mark {
@@ -42,6 +44,8 @@
   color: #000;
   margin-bottom: 60px;
   line-height: 28px;
+  text-align: center;
+  width: 100%;
 }
 
 .profile-button {
@@ -55,4 +59,18 @@
   font-weight: 600;
   border: none;
   cursor: pointer;
+}
+
+.profile-button {
+  background-color: #CF2133;
+  padding: 12px 24px;
+  border-radius: 6px;
+  width: 80%;
+  margin: 272px auto 20px;
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
 }/*# sourceMappingURL=WelcomeScreen.css.map */
