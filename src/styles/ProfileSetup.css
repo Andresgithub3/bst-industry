@@ -1,0 +1,126 @@
+.profile-setup-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.profile-setup-content {
+  flex: 1;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-title {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.profile-subtitle {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-label {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+
+.form-input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0 16px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+}
+
+.button-group .selection-button {
+  flex: 1;
+}
+
+.interests-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.interests-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.interests-row .selection-button {
+  flex: 1;
+  min-width: 100px;
+}
+
+.selection-button {
+  height: 50px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  padding: 0 16px;
+}
+
+.selection-button.selected {
+  background-color: #2d2d2d;
+  color: #fff;
+  border-color: #2d2d2d;
+}
+
+.continue-button {
+  height: 56px;
+  border-radius: 6px;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin-top: auto;
+}
+
+.continue-button.active {
+  background-color: #d22630;
+  color: #fff;
+}
+
+.continue-button.inactive {
+  background-color: #f5f5f5;
+  color: #c0c0c0;
+  border: 1px solid #e0e0e0;
+}/*# sourceMappingURL=ProfileSetup.css.map */
