@@ -15,7 +15,7 @@ export default function BottomNav() {
   const navigate = useNavigate();
 
   return (
-    <Box sx={{ width: "100%", position: "absolute", bottom: 0 }}>
+    <Box sx={{ width: "100%", position: "fixed", bottom: 0 }}>
       <BottomNavigation
         sx={{ height: 70 }}
         showLabels
