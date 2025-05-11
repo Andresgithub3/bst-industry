@@ -5,6 +5,7 @@ import './index.css'
 import App from './App.jsx'
 import HomePage from './pages/HomePage.jsx'
 import WelcomeScreen from './components/WelcomeScreen/WelcomeScreen.jsx'
+import ProfileSetup from './components/ProfileSetup/ProfileSetup.jsx'
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,8 @@ const router = createBrowserRouter([
       // add the child routes here, this is the sample pattern for a child route
       // { path: '/', element: <ComponentPageSample /> }, this is the sample pattern for a child route
       { path: '/', element: <HomePage /> },
-      {path: '/welcome', element: <WelcomeScreen />}
+      {path: '/welcome', element: <WelcomeScreen />},
+      {path: '/profile', element: <ProfileSetup />}
     ]
   }
 ])
