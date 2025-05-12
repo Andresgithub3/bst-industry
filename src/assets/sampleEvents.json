@@ -58,5 +58,105 @@
     "locationType": "Outdoor",
     "isSignedup": false,
     "image": "https://images.unsplash.com/photo-1735216228027-fe31c23474ce?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "bd2d21fa-b6cc-4f40-bd3b-1e90d52450a1",
+    "eventTitle": "Power Yoga Session",
+    "location": "Zen Studio, Los Angeles",
+    "time": "2025-05-20T09:00:00",
+    "category": "Yoga",
+    "locationType": "Indoor",
+    "isSignedup": false,
+    "image": "https://plus.unsplash.com/premium_photo-1666299711969-4aca8944a8cc?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "1d8a83b6-193c-4a66-a3d3-f38837896a5b",
+    "eventTitle": "Outdoor HIIT Circuit",
+    "location": "Griffith Park, LA",
+    "time": "2025-05-20T17:30:00",
+    "category": "HIIT",
+    "locationType": "Outdoor",
+    "isSignedup": false,
+    "image": "https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "857870ab-589d-430d-a3ff-dbdbe5de09f2",
+    "eventTitle": "Morning Jog Group",
+    "location": "Lake Shore, Toronto",
+    "time": "2025-05-21T06:00:00",
+    "category": "Cardio",
+    "locationType": "Outdoor",
+    "isSignedup": false,
+    "image": "https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "f3b6a591-e6c6-4aa1-9e43-2c53705553c4",
+    "eventTitle": "Barbell Basics",
+    "location": "Lift House, Denver",
+    "time": "2025-05-21T18:00:00",
+    "category": "Strength",
+    "locationType": "Indoor",
+    "isSignedup": false,
+    "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "376f16d4-070c-4a08-b497-67b3cc3c7686",
+    "eventTitle": "Sunset Pilates",
+    "location": "Sky Deck, San Diego",
+    "time": "2025-05-22T19:00:00",
+    "category": "Yoga",
+    "locationType": "Outdoor",
+    "isSignedup": false,
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=3620&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "f1f7393c-58c2-4cc6-b5c1-b45d4bde0e8d",
+    "eventTitle": "High-Intensity Sprint Drills",
+    "location": "Athletic Field, Houston",
+    "time": "2025-05-23T16:00:00",
+    "category": "HIIT",
+    "locationType": "Outdoor",
+    "isSignedup": false,
+    "image": "https://plus.unsplash.com/premium_photo-1664297510120-354f5adbb9eb?q=80&w=3413&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "784df40f-b51a-4c6a-9a7e-7ef43835c183",
+    "eventTitle": "Kettlebell Fundamentals",
+    "location": "Forge Gym, Atlanta",
+    "time": "2025-05-24T11:00:00",
+    "category": "Strength",
+    "locationType": "Indoor",
+    "isSignedup": false,
+    "image": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?q=80&w=3694&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "c9abfb76-bbb9-4c85-acc2-86d4f30c0e68",
+    "eventTitle": "Park Zumba Jam",
+    "location": "Civic Park, Boston",
+    "time": "2025-05-25T10:00:00",
+    "category": "Cardio",
+    "locationType": "Outdoor",
+    "isSignedup": false,
+    "image": "https://images.unsplash.com/photo-1524594152303-9fd13543fe6e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "4e4c9d3a-7a58-4600-9d75-6ad28bda5f57",
+    "eventTitle": "Indoor Cycle Burn",
+    "location": "PedalZone Studio, NYC",
+    "time": "2025-05-25T17:00:00",
+    "category": "Cardio",
+    "locationType": "Indoor",
+    "isSignedup": false,
+    "image": "https://images.unsplash.com/photo-1614181927185-bf76cae328b4?q=80&w=3499&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "a50cb07f-8de4-40d9-90bc-fdbfbf21d457",
+    "eventTitle": "Mobility and Core",
+    "location": "Movement Hub, Vancouver",
+    "time": "2025-05-26T13:00:00",
+    "category": "Strength",
+    "locationType": "Indoor",
+    "isSignedup": false,
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
 ]
