@@ -2,8 +2,11 @@ import React from "react";
 import "../../styles/WelcomeScreen.css";
 import BottomNav from "../BottomNav/BottomNav";
 import DefaultButton from "../Button/Button";
+import { useNavigate } from "react-router-dom";
 
 const WelcomeScreen = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="welcome-container">
       <div className="content-container">
@@ -20,7 +23,7 @@ const WelcomeScreen = () => {
             <br />
             fans near your closest lululemon store.
           </p>
-          <button className="profile-button">Set up profile</button>
+          <button className="profile-button" onClick={() => navigate('/profile')}>Set up profile</button>
         </div>
       </div>
     </div>
