@@ -1,7 +1,4 @@
-import React from "react";
 import "../../styles/WelcomeScreen.css";
-import BottomNav from "../BottomNav/BottomNav";
-import DefaultButton from "../Button/Button";
 import { useNavigate } from "react-router-dom";
 
 const WelcomeScreen = () => {
@@ -10,7 +7,7 @@ const WelcomeScreen = () => {
   return (
     <div className="welcome-container">
       <div className="content-container">
-        <div className="background-image">
+        <div className="background-image flex flex-col">
           <h1 className="welcome-title">
             Welcome to your
             <br />
@@ -23,7 +20,7 @@ const WelcomeScreen = () => {
             <br />
             fans near your closest lululemon store.
           </p>
-          <button className="profile-button" onClick={() => navigate('/profile')}>Set up profile</button>
+          <button className="profile-button mt-auto" onClick={() => navigate('/profile')}>Set up profile</button>
         </div>
       </div>
     </div>

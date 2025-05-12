@@ -15,7 +15,8 @@
 }
 
 body {
-  background-color: #f0f0f0;
+  position: relative;
+  background-color: #fff;
   color: #333;
   min-width: 320px;
   min-height: 100vh;
