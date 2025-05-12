@@ -1,0 +1,62 @@
+[
+  {
+    "id": "a7f3a8e1-8394-4f5e-aecd-1c2c1e67d001",
+    "eventTitle": "Sunrise Yoga Flow",
+    "location": "Beachside Park, Miami",
+    "time": "2025-05-15T06:30:00",
+    "category": "Yoga",
+    "locationType": "Outdoor",
+    "isSignedup": false,
+    "image": "https://images.unsplash.com/photo-1588286840104-8957b019727f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "d2c4b87f-5f8c-44b6-8e67-e8f45308f524",
+    "eventTitle": "HIIT Bootcamp",
+    "location": "Downtown Gym, Chicago",
+    "time": "2025-05-15T18:00:00",
+    "category": "HIIT",
+    "locationType": "Indoor",
+    "isSignedup": false,
+    "image": "https://images.unsplash.com/photo-1517130038641-a774d04afb3c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "a95f118d-0e61-42f1-96e6-71f8ffef0b95",
+    "eventTitle": "Evening Run Club",
+    "location": "Central Park, NYC",
+    "time": "2025-05-16T19:00:00",
+    "category": "Cardio",
+    "locationType": "Outdoor",
+    "isSignedup": false,
+    "image": "https://plus.unsplash.com/premium_photo-1723651325027-6a4e87522827?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "f715e7f7-cfd7-4654-9df6-2b05b4a6b4a4",
+    "eventTitle": "Strength Training Workshop",
+    "location": "Ironworks Fitness, Austin",
+    "time": "2025-05-17T10:00:00",
+    "category": "Strength",
+    "locationType": "Indoor",
+    "isSignedup": false,
+    "image": "https://images.unsplash.com/photo-1584466977773-e625c37cdd50?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "8bb6f255-25c7-43b1-9eb7-0451780eeb26",
+    "eventTitle": "Cardio Blast Challenge",
+    "location": "Outdoor Track, Seattle",
+    "time": "2025-05-18T08:00:00",
+    "category": "Cardio",
+    "locationType": "Outdoor",
+    "isSignedup": false,
+    "image": "https://plus.unsplash.com/premium_photo-1661281327296-3b800c2d8c05?q=80&w=2912&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "be5eb8ae-4358-442e-b3de-ec2f9b303888",
+    "eventTitle": "Community Cycling Ride",
+    "location": "River Trail, Portland",
+    "time": "2025-05-19T07:30:00",
+    "category": "Cardio",
+    "locationType": "Outdoor",
+    "isSignedup": false,
+    "image": "https://images.unsplash.com/photo-1735216228027-fe31c23474ce?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]

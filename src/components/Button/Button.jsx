@@ -7,9 +7,16 @@ import { Button } from "@mui/material";
 // pass the text prop to the DefaultButton component and insert whatever text you like, just like so:
 // <DefaultButton text={"Click Me"} />
 
-const DefaultButton = ({ text }) => {
+const DefaultButton = ({ isDisabled, onClick, text, customStyle = {} }) => {
+
+  function handleClick() {
+    if (onClick) {
+      onClick();
+    }
+  }
+
   return (
-    <Button sx={{ flex: 1, bgcolor: "#fff", color: "#000", borderRadius: 0, '&:hover': { color: '#fff', backgroundColor: '#e7000b'}}}>{text}</Button>
+    <Button onClick={handleClick} disabled={isDisabled} sx={{ ...customStyle, flex: 1, borderRadius: 0, ':focus': {outline: 0} }}>{text}</Button>
   );
 };
 
