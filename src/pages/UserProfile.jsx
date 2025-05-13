@@ -10,6 +10,7 @@ const UserProfile = () => {
     const { user } = useContext(UserContext)
     const [displayEvents, setDisplayEvents] = useState(false);
     const navigate = useNavigate();
+    const recommendations = sampleEvents.filter((event) => user.interests?.some((interest) => event.category.includes(interest)));
 
   return (
     <div className="px-6 py-4">
@@ -33,7 +34,7 @@ const UserProfile = () => {
 
           {displayEvents ? (
             <div className="grid grid-cols-1 gap-4 mt-4">
-              {sampleEvents.map((event, index) => (
+              {recommendations.map((event, index) => (
                 <EventsCard key={index} event={event} />
               ))}
             </div>
