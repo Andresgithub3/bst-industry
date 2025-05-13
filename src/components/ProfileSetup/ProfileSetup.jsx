@@ -90,7 +90,7 @@ const ProfileSetup = () => {
           </div>
 
           <div className="form-group">
-            <label className="form-label">Location type:</label>
+            <label className="form-label">Location type</label>
             <div className="button-group">
               <button
                 className={`selection-button ${locationType === "Indoor" ? "selected" : ""}`}
@@ -108,7 +108,7 @@ const ProfileSetup = () => {
           </div>
 
           <div className="form-group">
-            <label className="form-label">Interests:</label>
+            <label className="form-label">Interests</label>
             <div className="interests-container">
               <div className="interests-row">
                 {["Yoga", "HIIT", "Cardio", "Strength"].map((interest) => (
