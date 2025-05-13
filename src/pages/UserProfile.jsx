@@ -24,15 +24,15 @@ const UserProfile = () => {
             <span key={index}>{interest}{index < user.interests.length - 1 ? ' +' : ''}</span>
           )): null}
         </div>
-        <button onClick={() => setDisplayEvents(!displayEvents)} className="!bg-red-700 hover:!bg-red-500 text-white !rounded-none !border-none">{displayEvents ? "Your Events" : "See local events"}</button>
+        <button onClick={() => setDisplayEvents(!displayEvents)} className="!bg-red-700 hover:!bg-red-500 text-white !rounded-none !border-none">{!displayEvents ? "Your Events" : "See local events"}</button>
       </div>
 
       <hr className="my-6" />
 
       <div>
-          <h1 className="text-red-700 font-bold text-xl">{displayEvents ? "Upcoming events near your store" : "Your upcoming events"}</h1>
+          <h1 className="text-red-700 font-bold text-xl">{!displayEvents ? "Upcoming events near your store" : "Your upcoming events"}</h1>
 
-          {displayEvents ? (
+          {!displayEvents ? (
             <div className="grid grid-cols-1 gap-4 mt-4">
               {recommendations.map((event, index) => (
                 <EventsCard key={index} event={event} />
