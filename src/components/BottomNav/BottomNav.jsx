@@ -15,12 +15,12 @@ export default function BottomNav() {
   const navigate = useNavigate();
 
   return (
-    <Box sx={{ width: "100%", position: "fixed", bottom: 0 }}>
+    <Box sx={{ width: "100%", position: "fixed", bottom: 0, right: 0, left: 0 }} elevation={3}>
       <BottomNavigation
         sx={{ height: 70 }}
         showLabels
         value={value}
-        onChange={(event, newValue) => {
+        onChange={(newValue) => {
           setValue(newValue);
         }}
       >

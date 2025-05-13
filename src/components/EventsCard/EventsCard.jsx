@@ -5,7 +5,7 @@ import ButtonGroup from "@mui/material/ButtonGroup";
 import DefaultButton from "../Button/Button";
 import Tag from "../Tag/Tag";
 
-const tags = ["Tag1", "Tag2", "Tag3", "Tag4", "Tag5"];
+// const tags = ["Tag1", "Tag2", "Tag3", "Tag4", "Tag5"];
 
 const EventsCard = ({ event, isDetails }) => {
   const { user, setUser } = useContext(UserContext);
@@ -43,7 +43,7 @@ const EventsCard = ({ event, isDetails }) => {
 
       {/* Tags */}
       <div className="m-1">
-        {tags.map((tag, index) => (
+        {event.category.map((tag, index) => (
           <Tag key={index} text={tag} />
         ))}
       </div>
